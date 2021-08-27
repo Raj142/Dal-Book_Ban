@@ -1,0 +1,54 @@
+.set-card-style-1{
+    margin-top: 0.5em;
+    min-height: 5em;
+}
+
+.set-div-style{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    
+    background-size: contain;
+}
+
+.set-btn-position{
+    position: absolute;
+    right: 0;
+    
+    width: 5em;
+}
+
+.set-style-div-2{
+    margin: auto;
+}
+
+.set-pay-style{
+    margin-top: 1em;
+}
+.btn1 {
+    
+    margin: 0 auto;
+}
+
+.custom-class{
+    margin: 0 auto;
+}
+
+.custom-class1{
+    /* border: 1px solid black; */
+    box-shadow: 3px 3px 6px -3px black;
+}
+
+.custom-img{
+    margin-left: 250px;
+}
+
+.custom-table{
+    max-width: 500px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.custom-button{
+margin-left: 200px;
+}

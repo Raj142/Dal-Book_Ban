@@ -1,0 +1,19 @@
+.jumbotron{
+
+    top:1000px
+}
+
+.custom-btn-color{
+    background-color: #343a40;
+    color:white;
+}
+
+.top-book-div {
+    display: flex;
+    justify-content: center;
+}
+
+.top-books{
+    margin-left: 50px;
+    margin-top: 15px;
+}

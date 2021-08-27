@@ -1,0 +1,16 @@
+body {
+  background-color: white;
+  background-size: cover;
+  background-repeat: "no-repeat";
+  min-height: 100vh;
+    
+}
+
+#root {
+  min-height: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

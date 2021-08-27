@@ -1,0 +1,10 @@
+.custom-order{
+ 
+    margin: 0 auto;
+   
+}
+
+.custom-shadow{
+    box-sizing: border-box;
+    box-shadow: 3px 3px 6px -3px black;
+}

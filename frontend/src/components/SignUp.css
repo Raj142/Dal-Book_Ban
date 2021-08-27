@@ -1,0 +1,272 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+.form{
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 0.3rem;
+  }
+  
+  .center-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(154deg, #92b9b9, transparent);
+  }
+  
+  .form-content-center {
+    box-shadow: 0 0px 1px 0 rgb(0 0 0 / 20%), 0 7px 20px 0 rgb(0 0 0 / 20%);
+    border-radius: 10px 10px 10px 10px;
+    padding: 2rem;
+    position: relative;
+    background-color: #17a2b86e;
+  } 
+  
+  .form h1 {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+
+  .form-inputs {
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+    text-align: right;
+    margin: 0.5rem;
+  }
+
+  .form-LogIn-Submit{
+    flex-direction: column;
+    margin: 1.5rem 0rem;
+  }
+  
+  .form-Submit{
+    margin: 1.5rem 0rem;
+    justify-content: center;
+  }
+  
+  .form-input-container{
+    margin: 2rem 0rem;
+  }
+  
+  .form-input-errors {
+    font-size: 1rem;
+    color: #f31010;
+    text-align: center;
+    background-color: #ffffff38;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+  } 
+  
+  .form-input-errors p {
+    margin:0rem;
+  }
+  
+  .form-hidden-errors {
+    visibility: hidden;
+  }
+  
+  .form-label {
+    font-size: 1rem;
+    color: white;
+    margin: 0.5rem;
+    width: 40%;
+  }
+  
+  .form-input {
+    border-radius: 0.2rem;
+    height: 30px;
+    max-width: 80%;
+    border: none;
+  }
+  
+  .form-input::placeholder {
+    color: #b6b2b2;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .loginQuote h1{
+    font-weight: bold;  
+    font-size: 3.5rem;
+  }
+
+  .loginQuote h4{
+    background-image: linear-gradient(to left, violet, indigo, red);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+  }
+
+  .login-form {
+    background-color: #17a2b86e;
+  }
+
+  .login-form .form {
+    border: 2px solid black;
+  }
+  
+  .login-form h1 {
+    font-weight: bold;  
+ }
+
+  .login-form .form-inputs .form-label{
+      text-align: left;
+      width: 30%;
+      color: black;
+  }
+
+  .forgotPass {
+      background-color: transparent;
+      border: none;
+      color: black;
+      margin: 0.2rem;
+      text-decoration: underline;
+  }
+
+   .form-forgot-password .form-input-container{
+    margin: 0rem;
+  }
+
+  .form-forgot-password label{
+      color: black;
+      text-align: left;
+      width: 35%;
+  }
+
+  .form-forgot-password .form-input{
+     border: 2px solid black; 
+     border-radius: 0.2rem;
+     padding: 0.2rem;
+     width: 65%;
+  }
+
+  .modal-dialog{
+      width: 25%;
+  }
+
+  .modal-title {
+    text-align: center;
+    padding: 0.5rem;
+    color:#17a2b86e;
+    font-size: 1.5rem;
+  }
+
+  .modal-body {
+      padding: 0.5rem 0rem;
+  }
+
+  .modal-dialog .form{
+    padding: 0.5rem;
+  }
+
+  .modal-dialog .form-inputs{
+    padding: 0rem;
+  }
+
+  .modal-dialog .form-input{
+    border:none;
+    border-bottom: 1px solid grey;
+    border-radius: 0px;
+  }
+
+  .modal-dialog .form-input:focus-visible{
+    border:none;
+    outline-color: transparent;
+    border-bottom: 2px solid rgb(20, 23, 163);
+    border-radius: 0px;
+  }
+
+  .modal-dialog label{
+    font-size: 0.8rem;
+  }
+
+  .modal-dialog .form-Submit{
+    margin: 0rem;
+  }
+
+  @media screen and (max-width: 800px) {
+    
+    .center-container{
+      flex-direction: column;
+      padding: 0.4rem;
+    }
+
+    .form-content-center {  
+      padding: 1rem;
+    }
+
+    .loginQuote h1{
+       font-size: 2.5rem;
+    }
+
+    .loginQuote h4{
+      font-size: 1.5rem;
+    }
+
+    .form-input-container {
+       margin: 0rem 0rem; 
+    }
+
+    .form h1 {
+      font-size: 1.5rem;
+      text-align: center;
+      width: 100%;
+      color: white;
+    }
+
+    .form-label {
+      font-size: 0.9rem;
+      color: white;
+    }
+
+    .label {
+      display: inline-block;
+    }
+
+    .form-input {
+      border-radius: 0.2rem;
+      max-width: 80%;
+      border: none;
+    }
+
+    .form-input-btn {
+        box-sizing: content-box;
+        border-radius: 0.2rem;
+        color: white;
+        background-color: black;
+        height: 10px;
+    }
+
+    .form-content-center {
+      padding: 0.5rem;
+    }
+
+    .form{
+      padding: 0.5rem;
+    }
+   
+    .login-form .form-inputs {
+      align-items: center;
+      flex-direction: column;
+      margin: 0.5rem;
+    }
+
+    .form-LogIn-Submit {
+      margin: 1.5rem 0rem;
+    }
+
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+
+    .modal-dialog {
+      width: 40%;
+    }
+
+  }

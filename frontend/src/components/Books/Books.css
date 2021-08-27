@@ -1,0 +1,45 @@
+.set-row-style{
+    margin-left: 0.1em !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 2em;
+    margin-top: 4em;
+}
+
+.set-card-style{
+    margin-top: 0.1em;
+    min-height: 32em;
+}
+
+.set-img-style{
+    height: 11.5em;
+}
+
+.c1{
+    color: #0059b3 !important;
+    font-weight: bold;
+}
+
+.c2{
+    color: #7575a3 !important;
+}
+
+.set-card-style:hover{
+    box-shadow: 0 0 12px rgba(33,33,33,.2);
+}
+
+.custom-btn-color {
+    background-color: #343a40;
+    color:white;
+}
+
+.custom-classs{
+    margin-bottom: 35px;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #92b9b975;
+    border-radius: .3rem;
+}
